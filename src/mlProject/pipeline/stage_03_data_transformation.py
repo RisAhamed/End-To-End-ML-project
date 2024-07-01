@@ -2,7 +2,7 @@ from src.mlProject.entity.config_entity import (DataIngestionConfig,DataValidati
 from src.mlProject.config.configuration import ConfigurationManager
 from src.mlProject import logger
 from pathlib import Path
-
+from src.mlProject.components.data_transformation import DataTransformation
 
 STAGE_NAME = "Data Transformation stage"
 
@@ -27,4 +27,5 @@ class DataTransformationTrainingPipeline:
 
         except Exception as e:
             print(e)
+
 

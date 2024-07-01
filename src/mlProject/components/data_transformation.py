@@ -1,5 +1,5 @@
 import os
-from mlProject import logger
+from src.mlProject import logger
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from src.mlProject.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig)
@@ -10,8 +10,6 @@ class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
         self.config = config
 
-
-    
     ## Note: You can add different data transformation techniques such as Scaler, PCA and all
     #You can perform all kinds of EDA in ML cycle here before passing this data to the model
 
