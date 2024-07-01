@@ -67,3 +67,86 @@ Source-Age: 0
 
 ]
 [2024-06-30 20:18:07,353 - INFO - main - Data Ingestion Pipeline completed successfully]
+[2024-07-01 11:37:18,295 - INFO - main - Data Ingestion Pipeline]
+[2024-07-01 11:37:18,316 - INFO - common - yaml file: config\config.yaml loaded successfully]
+[2024-07-01 11:37:18,344 - INFO - common - yaml file: Params.yaml loaded successfully]
+[2024-07-01 11:37:18,348 - INFO - common - yaml file: Schema.yaml loaded successfully]
+[2024-07-01 11:37:18,352 - INFO - common - created directory at: artifacts]
+[2024-07-01 11:37:18,353 - ERROR - main - Data Ingestion Pipeline failed]
+[2024-07-01 11:37:18,354 - ERROR - main - 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\riswa\Desktop\End-To-End-MLProject\main.py", line 30, in <module>
+    data_ingestion_training_pipeline.main()
+  File "C:\Users\riswa\Desktop\End-To-End-MLProject\main.py", line 20, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-07-01 11:45:57,612 - INFO - main - Data Ingestion Pipeline]
+[2024-07-01 11:45:57,615 - INFO - common - yaml file: config\config.yaml loaded successfully]
+[2024-07-01 11:45:57,617 - INFO - common - yaml file: Params.yaml loaded successfully]
+[2024-07-01 11:45:57,622 - INFO - common - yaml file: Schema.yaml loaded successfully]
+[2024-07-01 11:45:57,623 - INFO - common - created directory at: artifacts]
+[2024-07-01 11:45:57,624 - ERROR - main - Data Ingestion Pipeline failed]
+[2024-07-01 11:45:57,624 - ERROR - main - 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\riswa\Desktop\End-To-End-MLProject\main.py", line 30, in <module>
+    data_ingestion_training_pipeline.main()
+  File "C:\Users\riswa\Desktop\End-To-End-MLProject\main.py", line 20, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-07-01 11:50:21,062 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-01 11:50:21,066 - INFO - common - yaml file: config\config.yaml loaded successfully]
+[2024-07-01 11:50:21,068 - INFO - common - yaml file: Params.yaml loaded successfully]
+[2024-07-01 11:50:21,074 - INFO - common - yaml file: Schema.yaml loaded successfully]
+[2024-07-01 11:50:21,075 - INFO - common - created directory at: artifacts]
+[2024-07-01 11:50:21,076 - ERROR - main - 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\riswa\Desktop\End-To-End-MLProject\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\riswa\Desktop\End-To-End-MLProject\src\mlProject\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-07-01 11:52:16,802 - INFO - main - >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-01 11:52:16,805 - INFO - common - yaml file: config\config.yaml loaded successfully]
+[2024-07-01 11:52:16,806 - INFO - common - yaml file: Params.yaml loaded successfully]
+[2024-07-01 11:52:16,810 - INFO - common - yaml file: Schema.yaml loaded successfully]
+[2024-07-01 11:52:16,811 - INFO - common - created directory at: artifacts]
+[2024-07-01 11:52:16,812 - INFO - common - created directory at: artifacts/data_ingestion]
+[2024-07-01 11:52:18,256 - INFO - data_ingestion - artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 96BA:278BDF:328BA:42EFE:66824B19
+Accept-Ranges: bytes
+Date: Mon, 01 Jul 2024 06:22:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10244-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1719814938.850201,VS0,VE344
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4dcf9aa0daea91570fb8ce43cb09fddd71eac488
+Expires: Mon, 01 Jul 2024 06:27:18 GMT
+Source-Age: 0
+
+]
+[2024-07-01 11:52:18,325 - INFO - main - >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-01 11:52:18,326 - INFO - main - >>>>>> stage Data Validation stage started <<<<<<]
+[2024-07-01 11:52:18,329 - INFO - common - yaml file: config\config.yaml loaded successfully]
+[2024-07-01 11:52:18,329 - INFO - common - yaml file: Params.yaml loaded successfully]
+[2024-07-01 11:52:18,334 - INFO - common - yaml file: Schema.yaml loaded successfully]
+[2024-07-01 11:52:18,337 - INFO - common - created directory at: artifacts]
+[2024-07-01 11:52:18,339 - INFO - common - created directory at: artifacts/data_validation]
+[2024-07-01 11:52:18,397 - INFO - main - >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
